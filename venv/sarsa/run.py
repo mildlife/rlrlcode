@@ -8,7 +8,7 @@ def update():
         # RL choose action based on observation
         action = RL.choose_action(str(observation))
 
-        while true:
+        while True:
             # fresh env
             env.render()
             # RL take action and get next observation and reward
